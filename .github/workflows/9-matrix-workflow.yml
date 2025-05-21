@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  first-workflow:
+  matrix-workflow:
     runs-on: ubuntu-latest
 
     strategy:
