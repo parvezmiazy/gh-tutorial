@@ -1,0 +1,21 @@
+name: Matrix workflow
+
+on:
+
+jobs:
+  first-workflow:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        uppercase: [A, B, C]
+        lowercase: [a, b, c]
+
+    steps:
+      - name: Matrix workflow
+        run: echo "Running Matrix Workflow!"
+
+      - name: Print matrix values
+        run: |
+          echo "Uppercase: ${{ matrix.uppercase }}"
+          echo "Lowercase: ${{ matrix.lowercase }}"
