@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'backend/**'
+      
 jobs:
   conditional-workflow:
     runs-on: ubuntu-latest
