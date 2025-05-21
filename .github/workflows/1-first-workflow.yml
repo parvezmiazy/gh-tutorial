@@ -4,4 +4,14 @@ on:[push]
 
 jobs:
   first-workflow:
-    
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: First step
+        run: | 
+        echo "Hello, World!"
+        echo "This is my first workflow"
+               
+
