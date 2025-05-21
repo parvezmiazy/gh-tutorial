@@ -25,6 +25,4 @@ jobs:
     steps:
       - name: Print Greetings Message
         run: |
-          ${{
-            needs.get-value-workflow-job.outputs.greetings_message
-          }}
+          echo "${{ needs.get-value-workflow-job.outputs.greetings_message}}"
