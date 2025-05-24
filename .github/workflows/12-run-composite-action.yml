@@ -1,10 +1,10 @@
 name: Composite Action
 on:
   workflow_dispatch:
-    inputs:
-      name:'Enter your name'
-      required: true
-      default: 'name'
+inputs:
+  name: "Enter your name"
+  required: true
+  default: "name"
 
 jobs:
   composite-action:
