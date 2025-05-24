@@ -1,6 +1,8 @@
-name: Composite Action
+name: Composite Action workflow
+
 on:
   workflow_dispatch:
+
 inputs:
   name:
     description: "Name of the person to greet"
