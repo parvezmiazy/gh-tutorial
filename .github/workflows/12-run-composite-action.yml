@@ -4,7 +4,7 @@ on:
     inputs:
       name:'Enter your name'
       required: true
-      default: 'Unnamed'
+      default: 'name'
 
 jobs:
   composite-action:
