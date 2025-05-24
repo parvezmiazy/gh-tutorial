@@ -4,15 +4,15 @@ on:
 jobs:
   reusable-workflow:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
 
       - name: Image building
         run: |
-        echo "Docker Image building!"
+          echo "Docker Image building!"
 
       - name: Image Pushing
         run: |
-        echo "Docker Image pushing!"  
+          echo "Docker Image pushing!"
