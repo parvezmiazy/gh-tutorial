@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build backend image
-        run: echo "Hello, Backend image is building!"
+        uses: parvezmiazy/gh-tutorial/.github/workflows/11-reusable-workflow.yml@main
