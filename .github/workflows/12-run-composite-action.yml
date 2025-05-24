@@ -2,7 +2,9 @@ name: Composite Action
 on:
   workflow_dispatch:
     inputs:
-      name:
+      name:'Enter your name'
+      required: true
+      default: 'Unnamed'
 
 jobs:
   composite-action:
