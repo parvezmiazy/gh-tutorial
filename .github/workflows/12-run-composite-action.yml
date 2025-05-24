@@ -2,9 +2,10 @@ name: Composite Action
 on:
   workflow_dispatch:
 inputs:
-  name: "Enter your name"
-  required: true
-  default: "name"
+  name:
+    description: "Name of the person to greet"
+    required: true
+    default: "Unnamed"
 
 jobs:
   composite-action:
