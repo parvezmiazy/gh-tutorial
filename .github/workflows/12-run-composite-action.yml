@@ -1,4 +1,4 @@
-name: Composite Action workflow
+name: Composite Action
 
 on:
   workflow_dispatch:
