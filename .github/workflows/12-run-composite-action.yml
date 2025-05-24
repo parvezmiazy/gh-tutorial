@@ -18,7 +18,7 @@ jobs:
 
       - name: Run Composite Action
         id: greet
-        uses: ./
+        uses: ././github/actions/greeting-generator-composite-action
         with:
           name: ${{ github.event.inputs.name }}
 
